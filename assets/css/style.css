@@ -26,6 +26,19 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/* programme table colors */
+.tbl_info {
+  background-color: #edf1f9;
+}
+
+.tbl_break {
+  background-color: #d9e2f3
+}
+
+.time {
+  background-color: rgb(122, 32, 32, 0.7);
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -96,15 +109,14 @@ h6 {
   letter-spacing: 1px;
 }
 
-#header .logo h1 a
-{
+#header .logo h1 a {
   color: #fff;
   text-decoration: none;
 }
 
 #header .logo h1 a:hover {
-color: #2a2c39;
-text-decoration: none;
+  color: #2a2c39;
+  text-decoration: none;
 }
 
 #header .logo img {
@@ -189,9 +201,9 @@ text-decoration: none;
   color: #2a2c39;
   margin: 0 5px;
   font-size: 14px;
-}j
+}
 
-.navbar .dropdown ul a i {
+j .navbar .dropdown ul a i {
   font-size: 12px;
 }
 

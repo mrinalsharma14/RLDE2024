@@ -21,14 +21,14 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
-h1 {
+h3{color: #ffffff;}
+/* h1 {
     font-size: 4rem;
-}
-
+} */
+/* 
 h3 {
     font-size: 2.8rem;
-}
+} */
 
 /* body {
     background: #000000;
@@ -39,6 +39,7 @@ h3 {
 .heading {
     line-height: 2;
     font-weight: 900;
+    color: #000;
 }
 
 .section-container {
@@ -79,7 +80,7 @@ h3 {
     border-bottom: 1px solid var(--border);
 }
 
-.schedule-stage:nth-child(1)>.schedule-stage__title>h3 {
+/* .schedule-stage:nth-child(1)>.schedule-stage__title>h3 {
     background: red;
     background: linear-gradient(to right, #eb3349, #f45c43);
     -webkit-background-clip: text;
@@ -91,7 +92,7 @@ h3 {
     background: linear-gradient(to right, #1d976c, #93f9b9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 
 .schedule-stage__title {
     position: sticky;
@@ -99,7 +100,7 @@ h3 {
     padding-right: 5rem;
     height: 100%;
     padding-left: var(--padding);
-    background: linear-gradient(to right, #000000 30%, rgba(0, 0, 0, 0));
+    /* background: linear-gradient(to right, #000000 30%, rgba(0, 0, 0, 0)); */
 }
 
 .schedule-stage__title>h3 {

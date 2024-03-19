@@ -138,16 +138,44 @@ tr:nth-child(even):hover {
   text-decoration: none;
 }
 
-#header .logo h1 a:hover {
+/* #header .logo h1 a:hover {
   color: #2a2c39;
   text-decoration: none;
-}
+} */
 
 #header .logo img {
   padding: 0;
   margin: 0;
   max-height: 40px;
 }
+
+.logo {
+  position: relative;
+  display: inline-block;
+}
+
+.logo-link {
+  position: relative;
+  display: inline-block;
+}
+
+.logo .hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; /* Initially transparent */
+  transition: opacity 0.2s ease;
+}
+
+.logo:hover .hover-image {
+  opacity: 1;
+}
+
+.logo .normal-image {
+  display: block;
+  opacity: 1;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu

@@ -123,16 +123,19 @@ h3 {
 }
 
 .guide-slot_card {
-    background: #0a0a0a;
-    border: 1px solid var(--border);
+    background: rgb(122, 32, 32, 0.85);
+    /* background: #0a0a0a;
+    border: 1px solid var(--border); */
     border-radius: 0.8rem;
     font-size: 1.4rem;
+    color: #DADEDF;
     margin-bottom: 2rem;
     padding: 1.6rem;
     cursor: pointer;
 }
 
 .guide-slot_card:hover {
+    background: rgb(122, 32, 32, 0.9);
     border-color: #b3b3b3;
 }
 
